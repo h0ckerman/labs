@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "School Visit 1",
+    "description": "Career guidance session at ABC High School.",
+    "employees": [
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "title": "School Visit 2",
+    "description": "Interactive workshop at XYZ Middle School.",
+    "employees": []
+  },
+  {
+    "id": 3,
+    "title": "School Visit 3",
+    "description": "Panel discussion at PQR Elementary School.",
+    "employees": [
+      2
+    ]
+  }
+]

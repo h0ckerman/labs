@@ -1,0 +1,54 @@
+.welcome-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.welcome-header {
+    margin-bottom: 20px;
+}
+
+.welcome-title {
+    font-size: 3em;
+    color: #2a3749;
+    font-family: 'Roboto', sans-serif;
+}
+
+.welcome-subtitle {
+    font-size: 1.5em;
+    color: #546e7a;
+}
+
+.welcome-button button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.welcome-button button:hover {
+    background-color: #45a049;
+}
+
+.additional-content {
+    margin-top: 40px;
+}
+
+.info {
+    font-size: 1.3em;
+    color: #757575;
+}
+
+.feature-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feature-item {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #546e7a;
+}
