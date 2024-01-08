@@ -1,0 +1,53 @@
+.detailed-view-page {
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.data-not-found {
+  color: #ccc;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.data-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.data-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.employee-list {
+  margin-bottom: 20px;
+}
+
+.employee-list-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.employee-list-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.employee-list-item {
+  margin-bottom: 5px;
+}
+
+.go-back-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

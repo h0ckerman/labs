@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.profile {
+    position: relative;
+}
+
+.profile-info {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.profile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-menu li {
+    padding: 10px;
+}
+
+.profile-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile-menu.show {
+    display: block;
+}
+
+.profile:hover .profile-menu {
+    display: block;
+}

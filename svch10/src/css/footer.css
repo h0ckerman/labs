@@ -1,0 +1,38 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.contact-block,
+.about-us,
+.social-links {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
