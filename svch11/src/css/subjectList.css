@@ -1,0 +1,42 @@
+.subject-list {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subject-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subject-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.subject-description {
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.subject-link {
+    display: block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.subject-link:hover {
+    background-color: #0056b3;
+}
